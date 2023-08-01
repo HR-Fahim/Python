@@ -28,4 +28,6 @@ def merge_sort(list):
 
 list = [8, 6, 4, 7, 2, 6]
 sorted_list = merge_sort(list)
+
+#Print Answer
 print(sorted_list)

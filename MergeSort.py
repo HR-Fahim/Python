@@ -26,8 +26,8 @@ def merge_sort(list):
             k += 1
     return list
 
-list = [8, 6, 4, 7, 2, 6]
+list = [8, 6, 4, 7, 2, 6, 9, 1]
 sorted_list = merge_sort(list)
 
-#Print Answer
+#Print Answers
 print(sorted_list)

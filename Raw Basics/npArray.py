@@ -14,6 +14,13 @@ def main():
     # Print the first two columns of array A
     print(A[:, :2])
 
+    # Print the first two rows of array A
+    print(A[:2, :])
+
+    # Print the 2x3 sub-array from array A
+    print(A[:2, :3])
+
+
     # Create an array using numpy's arange function
     a = np.arange(5)
 

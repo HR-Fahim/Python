@@ -26,6 +26,6 @@ def count_sets(n):
     return f[n]
 
 # Example: Calculate for width 5
-width = 5
+width = 9
 result = count_sets(width)
 print(f"The number of sets for width {width} is {result}")

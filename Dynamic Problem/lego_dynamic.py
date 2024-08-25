@@ -24,6 +24,8 @@ def legoBlocks(n, m):
     for _ in range(5, m + 1):
         row_ways.append((row_ways[-1] + row_ways[-2] + row_ways[-3] + row_ways[-4]) % MOD)
 
+    print(row_ways) # Debugging
+
     # Compute pn values: number of ways to build n rows with width k
     pn = [pow(width, n, MOD) for width in row_ways]
 

@@ -29,6 +29,8 @@ def legoBlocks(n, m):
     # Compute pn values: number of ways to build n rows with width k
     pn = [pow(width, n, MOD) for width in row_ways]
 
+    print(pn) # Debugging
+
     # Compute gn values: number of ways to build a solid wall of width k
     good_configurations = [0, 1]
     for width in range(2, m + 1):
